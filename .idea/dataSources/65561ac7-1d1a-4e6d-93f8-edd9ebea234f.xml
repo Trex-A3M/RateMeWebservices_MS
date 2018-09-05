@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost [2]">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.7">
+    <root id="1"/>
+    <schema id="2" parent="1" name="RATEME">
+      <ObjectId>108</ObjectId>
+      <IntrospectionTimestamp>2018-08-28.21:50:34</IntrospectionTimestamp>
+      <CreatedTimestamp>2018-08-27.15:52:35</CreatedTimestamp>
+      <ModifiedTimestamp>2018-08-28.21:50:33</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="AUDSYS">
+      <ObjectId>8</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="SYSTEM">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="GSMUSER">
+      <ObjectId>22</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="DIP">
+      <ObjectId>23</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="REMOTE_SCHEDULER_AGENT">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="DBSFWUSER">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="ORACLE_OCM">
+      <ObjectId>39</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="SYS$UMF">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="DBSNMP">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="APPQOSSYS">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="GSMCATUSER">
+      <ObjectId>59</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="GGSYS">
+      <ObjectId>60</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="XDB">
+      <ObjectId>62</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="ANONYMOUS">
+      <ObjectId>63</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="WMSYS">
+      <ObjectId>72</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="OJVMSYS">
+      <ObjectId>81</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="CTXSYS">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="ORDSYS">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="ORDDATA">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="ORDPLUGINS">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>89</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="MDSYS">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="OLAPSYS">
+      <ObjectId>93</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="MDDATA">
+      <ObjectId>96</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>98</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="LBACSYS">
+      <ObjectId>101</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="DVF">
+      <ObjectId>103</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="HR">
+      <ObjectId>106</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="MOHAMMAD">
+      <ObjectId>107</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="SYSRAC">
+      <ObjectId>2147483620</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="42" parent="2" name="ISEQ$$_77390">
+      <ObjectId>77391</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-08-27.15:52:35</CreatedTimestamp>
+      <ModifiedTimestamp>2018-08-27.15:52:35</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="43" parent="2" name="ISEQ$$_77554">
+      <ObjectId>77555</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-08-28.20:26:33</CreatedTimestamp>
+      <ModifiedTimestamp>2018-08-28.20:26:33</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="44" parent="2" name="ISEQ$$_77557">
+      <ObjectId>77558</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-08-28.20:30:25</CreatedTimestamp>
+      <ModifiedTimestamp>2018-08-28.20:30:25</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="45" parent="2" name="ISEQ$$_77560">
+      <ObjectId>77561</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-08-28.20:48:12</CreatedTimestamp>
+      <ModifiedTimestamp>2018-08-28.20:48:12</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="46" parent="2" name="ISEQ$$_77563">
+      <ObjectId>77564</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-08-28.20:52:05</CreatedTimestamp>
+      <ModifiedTimestamp>2018-08-28.20:52:05</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <table id="47" parent="2" name="CATEGORY">
+      <ObjectId>77554</ObjectId>
+      <CreatedTimestamp>2018-08-28.20:26:33</CreatedTimestamp>
+      <ModifiedTimestamp>2018-08-28.21:49:48</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="48" parent="2" name="PRODUCT_INFO">
+      <ObjectId>77557</ObjectId>
+      <CreatedTimestamp>2018-08-28.20:30:25</CreatedTimestamp>
+      <ModifiedTimestamp>2018-08-28.21:50:09</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="49" parent="2" name="PRODUCT_RATING">
+      <ObjectId>77563</ObjectId>
+      <CreatedTimestamp>2018-08-28.20:52:05</CreatedTimestamp>
+      <ModifiedTimestamp>2018-08-28.21:50:33</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="50" parent="2" name="USER_INFO">
+      <ObjectId>77560</ObjectId>
+      <CreatedTimestamp>2018-08-28.20:48:12</CreatedTimestamp>
+      <ModifiedTimestamp>2018-08-28.20:48:12</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="51" parent="47" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+      <AutoInc>1</AutoInc>
+    </column>
+    <column id="52" parent="47" name="NAME">
+      <Position>2</Position>
+      <DataType>NVARCHAR2(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="47" name="PARENT_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="54" parent="47" name="CREATE_TIME">
+      <Position>4</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="55" parent="47" name="UPDATE_TIME">
+      <Position>5</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <index id="56" parent="47" name="SYS_C009078">
+      <ObjectId>77556</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-08-28.20:26:33</CreatedTimestamp>
+      <ModifiedTimestamp>2018-08-28.20:26:33</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="57" parent="47" name="SYS_C009078">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-08-28.20:26:33</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C009078</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="58" parent="48" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+      <AutoInc>1</AutoInc>
+    </column>
+    <column id="59" parent="48" name="NAME">
+      <Position>2</Position>
+      <DataType>NVARCHAR2(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="48" name="CAT_ID">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="61" parent="48" name="CREATE_TIME">
+      <Position>4</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="62" parent="48" name="UPDATE_TIME">
+      <Position>5</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <index id="63" parent="48" name="SYS_C009082">
+      <ObjectId>77559</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-08-28.20:30:25</CreatedTimestamp>
+      <ModifiedTimestamp>2018-08-28.20:30:25</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="64" parent="48" name="SYS_C009082">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-08-28.20:30:25</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C009082</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="65" parent="48" name="SYS_C009083">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-08-28.20:30:25</ModifiedTimestamp>
+      <ColNames>CAT_ID</ColNames>
+      <RefSchemaName>RATEME</RefSchemaName>
+      <RefTableName>CATEGORY</RefTableName>
+      <RefKeyName>SYS_C009078</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="66" parent="49" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+      <AutoInc>1</AutoInc>
+    </column>
+    <column id="67" parent="49" name="PRODUCT_INFO_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="49" name="RATE">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="69" parent="49" name="UPDATE_TIME">
+      <Position>4</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="70" parent="49" name="IP">
+      <Position>5</Position>
+      <DataType>NVARCHAR2(30)|0</DataType>
+    </column>
+    <column id="71" parent="49" name="USER_ID">
+      <Position>6</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="72" parent="49" name="SYS_C009090">
+      <ObjectId>77565</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-08-28.20:52:05</CreatedTimestamp>
+      <ModifiedTimestamp>2018-08-28.20:52:05</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="73" parent="49" name="SYS_C009090">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-08-28.20:52:05</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C009090</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="74" parent="49" name="SYS_C009091">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-08-28.20:52:05</ModifiedTimestamp>
+      <ColNames>PRODUCT_INFO_ID</ColNames>
+      <RefSchemaName>RATEME</RefSchemaName>
+      <RefTableName>PRODUCT_INFO</RefTableName>
+      <RefKeyName>SYS_C009082</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="75" parent="49" name="SYS_C009092">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-08-28.20:52:05</ModifiedTimestamp>
+      <ColNames>USER_ID</ColNames>
+      <RefSchemaName>RATEME</RefSchemaName>
+      <RefTableName>USER_INFO</RefTableName>
+      <RefKeyName>SYS_C009086</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="76" parent="50" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+      <AutoInc>1</AutoInc>
+    </column>
+    <column id="77" parent="50" name="NAME">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="78" parent="50" name="ROLE">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <index id="79" parent="50" name="SYS_C009086">
+      <ObjectId>77562</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-08-28.20:48:12</CreatedTimestamp>
+      <ModifiedTimestamp>2018-08-28.20:48:12</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="80" parent="50" name="SYS_C009086">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-08-28.20:48:12</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C009086</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
