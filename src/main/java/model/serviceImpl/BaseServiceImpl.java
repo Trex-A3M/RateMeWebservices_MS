@@ -4,6 +4,7 @@ import model.dao.BaseDao;
 import model.service.BaseService;
 
 import javax.annotation.PostConstruct;
+import java.util.ArrayList;
 import java.util.List;
 
 public abstract class BaseServiceImpl<T> implements BaseService<T> {
@@ -38,6 +39,10 @@ public abstract class BaseServiceImpl<T> implements BaseService<T> {
         return getDao().getListByField(colName, value);
     }
 
+    public List<T> getListByPhrase(String colName, String phrase) {
+        return baseDao.getListByPhrase(colName, phrase);
+
+    }
     public T getEntityById(T t, int id) {
         return (T) getDao().getById(t, id);
     }

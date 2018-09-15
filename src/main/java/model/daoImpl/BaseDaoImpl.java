@@ -4,6 +4,7 @@ import model.dao.BaseDao;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
+import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
@@ -34,6 +35,19 @@ public abstract class BaseDaoImpl<T> implements BaseDao<T> {
             e.printStackTrace();
         }
     }
+
+    public List<T> getListByPhrase(String colName, String phrase) {
+        try {
+            session = getSession();
+            Query query = session.createQuery("from " + clazz.getCanonicalName() + " where " + colName + " like :phrase");
+            query.setParameter("phrase", "%" + phrase + "%");
+            return query.list();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
 
 
     public int save(T t) {

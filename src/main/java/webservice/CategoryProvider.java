@@ -30,4 +30,5 @@ public class CategoryProvider {
         List<Category> categories = categoryService.getAll();
         return categories;
     }
+
 }

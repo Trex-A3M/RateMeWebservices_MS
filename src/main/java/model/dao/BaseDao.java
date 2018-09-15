@@ -2,7 +2,6 @@ package model.dao;
 
 import org.springframework.stereotype.Service;
 
-import java.io.Serializable;
 import java.util.List;
 
 @Service
@@ -10,6 +9,8 @@ public interface BaseDao<T> {
     int save(T t);
 
     List<T> getAll();
+
+    List<T> getListByPhrase(String colName, String phrase);
 
     void delete(T t);
 
